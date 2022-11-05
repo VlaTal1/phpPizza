@@ -1,0 +1,255 @@
+.hr2
+{
+    border: none; /* Убираем границу для браузера Firefox */
+    color:#555; /* Цвет линии для остальных браузеров */
+    background-color: #555; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+    width: 460px;
+}
+
+hr
+{
+    border: none; /* Убираем границу для браузера Firefox */
+    color:#555; /* Цвет линии для остальных браузеров */
+    background-color: #555; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'OleoScript-Regular';
+    src: url(../fonts/OleoScript-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'OleoScript-Bold';
+    src: url(../fonts/OleoScript-Bold.ttf) format('truetype');
+}
+
+.menu-img
+{
+    width: 30%;
+    margin-right: 20px;
+    float: left;
+}
+
+.show-img
+{
+    width: 40%;
+    margin-right: 20px;
+    float: left;
+}
+
+.pizza-name
+{
+    font-size: 30px;
+    font-family: 'OleoScript-Bold';
+}
+
+.pizza-show-name
+{
+    font-size: 40pt;
+    text-align: center;
+    font-family: 'OleoScript-Bold';
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pizza-desc
+{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Roboto-Regular';
+}
+
+.pizza-show-desc
+{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Roboto-Regular';
+}
+
+.pizza-price
+{
+    margin-top: 10px;
+    font-size: 28px;
+    font-family: 'Roboto-Bold';
+    float: left;
+    /* color:maroon; */
+}
+
+.pizza-show-price
+{
+    margin-top: 10px;
+    font-size: 28px;
+    font-family: 'Roboto-Bold';
+    /* color:maroon; */
+}
+
+.pizza
+{
+    clear: left;
+    margin-bottom: 60px;
+    height: 256.5px;
+}
+
+.pizza-show
+{
+    clear: left;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    height: 380px;
+}
+
+.pizza-menu
+{
+    background-color: #CADDE1;
+}
+
+.pizza-menu p
+{
+    font-family: 'OleoScript-Bold';
+    font-size: 70px;
+    color:steelblue;
+    text-shadow: 2px 3px 0px rgb(32, 65, 92);
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.showPizza {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #68686A;
+    cursor: pointer;
+    background-color: #CADDE1;
+    padding: 8px 8px 8px 8px;
+    width: 15%;
+    margin-right: 1em;
+    display: inline-block;
+    border: 1px solid #68686A;
+    font-size: 1.1em;
+    /* background: url(../images/icon1.png)no-repeat 112px 16px; */
+    position: relative;
+    transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+	text-decoration:none;
+    letter-spacing: 0.5px;
+}
+.showPizza:hover {
+    color:#fff;
+	background:   #68686A   112px 16px;
+}
+
+.order {
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #68686A;
+    cursor: pointer;
+    background-color: #CADDE1;
+    padding: 8px 8px 8px 8px;
+    width: 15%;
+    margin-right: 1em;
+    display: inline-block;
+    border: 1px solid #68686A;
+    font-size: 14pt;
+    /* background: url(../images/icon1.png)no-repeat 112px 16px; */
+    position: relative;
+    transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+	text-decoration:none;
+    letter-spacing: 0.5px;
+}
+.order:hover {
+    color:#fff;
+	background:   #68686A   112px 16px;
+}
+
+.pizza-amount
+{
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.reviews-block
+{
+    background-color: #CADDE1;
+}
+
+.review-text
+{
+    font-size: 18px;
+    font-family: 'Roboto-Regular';
+}
+
+.send-review {
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #68686A;
+    cursor: pointer;
+    background-color: #CADDE1;
+    padding: 8px 8px 8px 8px;
+    width: 200px;
+    margin-right: 1em;
+    display: inline-block;
+    border: 1px solid #68686A;
+    font-size: 14pt;
+    /* background: url(../images/icon1.png)no-repeat 112px 16px; */
+    position: relative;
+    transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+	text-decoration:none;
+    letter-spacing: 0.5px;
+}
+.send-review:hover {
+    color:#fff;
+	background:   #68686A   112px 16px;
+}
+
+.text1
+{
+    font-size: 20pt;
+    font-family: 'Roboto-Regular';
+}
+
+.reviews
+{
+    float: left;
+}
+
+.review-form
+{
+    margin-left: 50%;
+    height: 350px;
+}
+
+.reg
+{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 16pt;
+    font-family: 'Roboto-Regular';
+    color: black;
+    background-color: #CADDE1;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+}

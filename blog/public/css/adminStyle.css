@@ -1,0 +1,38 @@
+*
+{
+    padding: 5px 10px 0px 10px;
+}
+
+hr
+{
+    border: none; /* Убираем границу для браузера Firefox */
+    color:#555; /* Цвет линии для остальных браузеров */
+    background-color: #555; /* Цвет линии для браузера Firefox и Opera */
+}
+
+.change {
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #68686A;
+    cursor: pointer;
+    background-color: #CADDE1;
+    padding: 8px 8px 8px 8px;
+    width: 110px;
+    margin-right: 1em;
+    display: inline-block;
+    border: 1px solid #68686A;
+    font-size: 14pt;
+    /* background: url(../images/icon1.png)no-repeat 112px 16px; */
+    position: relative;
+    transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+	text-decoration:none;
+    letter-spacing: 0.5px;
+}
+.change:hover {
+    color:#fff;
+	background:   #68686A   112px 16px;
+}
